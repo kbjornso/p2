@@ -1,3 +1,4 @@
+//Requirment A
 var isArmstrong = function(k){
 	"use strict";
 	k = k.toString();
@@ -13,6 +14,7 @@ var isArmstrong = function(k){
 	}
 	else{return false}
 }
+//Requirment B
 var allArmstrongs = function(){
 	var result = "";
 	//generate
@@ -23,7 +25,7 @@ var allArmstrongs = function(){
 		}
 		return result;
 	}
-
+//Requirment C
 var allSubstrings1 = function(s){
 	var result ="";
 	for(var i = 0; i< s.length; i++) {
@@ -35,6 +37,7 @@ var allSubstrings1 = function(s){
 	return result;
 }
 
+//Requirment D
 
 
 var allSubstrings2 = function(s){
@@ -47,6 +50,7 @@ var allSubstrings2 = function(s){
 	}
 	return array;
 }
+// E
 var maxWord = function(s) {
 
 	words = s.split(" ");

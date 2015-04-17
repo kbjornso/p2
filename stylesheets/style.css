@@ -1,6 +1,6 @@
 body {
   background: #f9e933;
-  color: blue;
+  
 
 }
 
@@ -52,6 +52,7 @@ footer .sitemap {
   float: right;
   width: 285px;
 }
-p {
-  font-family: "Times New Roman", Times, serif;
+#questions {
+  color: blue;
+  font-family: "Times New Roman", Georgia, Serif;
 }
